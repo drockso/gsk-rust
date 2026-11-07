@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">GSK Rust — CNC file transfer, one binary</title>
+  <desc id="desc">Independent UDP client with upload, download and SHA-256 read-back verification for Windows and Linux.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101b29"/><stop offset="1" stop-color="#09111b"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9bb7d7" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1280" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="22" fill="url(#grid)"/>
+  <path d="M64 56h40" stroke="#63e0ad" stroke-width="5" stroke-linecap="round"/>
+  <text x="64" y="133" fill="#edf4fb" font-size="61" font-weight="700" font-family="Segoe UI,Arial,sans-serif">GSK <tspan fill="#63e0ad">Rust</tspan></text>
+  <text x="66" y="180" fill="#d5e1ed" font-size="26" font-family="Segoe UI,Arial,sans-serif">CNC file transfer. One binary.</text>
+  <text x="66" y="224" fill="#92a7bc" font-size="18" font-family="Segoe UI,Arial,sans-serif">SEND / RECEIVE / LIST / VERIFY</text>
+  <rect x="64" y="265" width="166" height="35" rx="17" fill="#16332c"/>
+  <text x="147" y="288" text-anchor="middle" fill="#85edc1" font-size="14" font-family="Segoe UI,Arial,sans-serif">Windows + Linux</text>
+  <text x="251" y="288" fill="#92a7bc" font-size="14" font-family="Segoe UI,Arial,sans-serif">Direct UDP · No vendor DLL</text>
+  <rect x="696" y="61" width="520" height="238" rx="14" fill="#0c1520" stroke="#2b3f52"/>
+  <circle cx="723" cy="85" r="5" fill="#63e0ad"/><circle cx="741" cy="85" r="5" fill="#334859"/><circle cx="759" cy="85" r="5" fill="#334859"/>
+  <text x="719" y="139" fill="#92a7bc" font-size="17" font-family="Consolas,monospace">$ gsk send &lt;ip&gt; part.cnc</text>
+  <text x="739" y="168" fill="#edf4fb" font-size="17" font-family="Consolas,monospace">O1234.CNC --verify</text>
+  <path d="M720 200h470" stroke="#243848"/>
+  <text x="720" y="235" fill="#63e0ad" font-size="17" font-family="Consolas,monospace">Upload → read back → SHA-256</text>
+  <text x="720" y="267" fill="#92a7bc" font-size="15" font-family="Consolas,monospace">Independent protocol implementation</text>
+</svg>

@@ -1,0 +1,33 @@
+name: Bug report / Ошибка
+description: Report a reproducible CLI or protocol problem.
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: gsk version and OS
+      placeholder: gsk 0.1.0, Windows 11 x64
+    validations:
+      required: true
+  - type: input
+    id: controller
+    attributes:
+      label: Controller model and firmware, if known
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Command and reproduction steps
+      description: Replace real IPs, personal paths and production program contents with examples.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized verbose output
+      render: text

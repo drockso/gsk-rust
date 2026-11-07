@@ -1,0 +1,14 @@
+name: Feature request / Предложение
+description: Suggest a focused improvement or share compatibility evidence.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What workflow would this improve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested behavior and available protocol evidence
+      description: Include sanitized examples; do not attach vendor binaries.
